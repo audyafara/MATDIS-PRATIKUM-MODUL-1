@@ -1,0 +1,92 @@
+# Tabel Percobaan
+
+## Case 1 - Pergi Kuliah (AND)
+
+| Sudah Mandi | Sudah Sarapan | Membawa Tas | Hasil                   |
+
+| True        | True          | True        | Bisa pergi kuliah       |
+| True        | True          | False       | Belum bisa pergi kuliah |
+| True        | False         | True        | Belum bisa pergi kuliah |
+| True        | False         | False       | Belum bisa pergi kuliah |
+| False       | True          | True        | Belum bisa pergi kuliah |
+| False       | True          | False       | Belum bisa pergi kuliah |
+| False       | False         | True        | Belum bisa pergi kuliah |
+| False       | False         | False       | Belum bisa pergi kuliah |
+
+
+## Case 2 - Membeli Makanan (AND)
+
+| Punya Uang | Makanan Tersedia | Toko Buka | Hasil                      |
+
+| True       | True             | True      | Bisa membeli makanan       |
+| True       | True             | False     | Tidak bisa membeli makanan |
+| True       | False            | True      | Tidak bisa membeli makanan |
+| True       | False            | False     | Tidak bisa membeli makanan |
+| False      | True             | True      | Tidak bisa membeli makanan |
+| False      | True             | False     | Tidak bisa membeli makanan |
+| False      | False            | True      | Tidak bisa membeli makanan |
+| False      | False            | False     | Tidak bisa membeli makanan |
+
+
+## Case 3 - Mengendarai Motor (AND)
+
+| Punya SIM | Pakai Helm | Ada Bensin | Hasil                         |
+
+| True      | True       | True       | Boleh mengendarai motor       |
+| True      | True       | False      | Tidak boleh mengendarai motor |
+| True      | False      | True       | Tidak boleh mengendarai motor |
+| True      | False      | False      | Tidak boleh mengendarai motor |
+| False     | True       | True       | Tidak boleh mengendarai motor |
+| False     | True       | False      | Tidak boleh mengendarai motor |
+| False     | False      | True       | Tidak boleh mengendarai motor |
+| False     | False      | False      | Tidak boleh mengendarai motor |
+
+
+## Case 4 - Menghubungi Teman (OR)
+
+| Punya WiFi | Punya Kuota | Hasil                        |
+
+| True       | True        | Bisa menghubungi teman       |
+| True       | False       | Bisa menghubungi teman       |
+| False      | True        | Bisa menghubungi teman       |
+| False      | False       | Tidak bisa menghubungi teman |
+
+
+## Case 5 - Membayar Belanja (OR)
+
+| Uang Tunai | Saldo E-Wallet | Hasil                       |
+
+| True       | True           | Bisa membayar belanja       |
+| True       | False          | Bisa membayar belanja       |
+| False      | True           | Bisa membayar belanja       |
+| False      | False          | Tidak bisa membayar belanja |
+
+
+## Case 6 - Pergi ke Kampus (OR)
+
+| Kendaraan Pribadi | Kendaraan Umum | Hasil                      |
+
+| True              | True           | Bisa pergi ke kampus       |
+| True              | False          | Bisa pergi ke kamps        |
+| False             | True           | Bisa pergi ke kampus       |
+| False             | False          | Tidak bisa pergi ke kampus |
+
+
+## Case 7 - Memilih Minuman (XOR)
+  
+| Teh   | Kopi  | Hasil                       |
+
+| True  | True  | Pilihan minuman tidak valid |
+| True  | False | Pilihan minuman valid       |
+| False | True  | Pilihan minuman valid       |
+| False | False | Pilihan minuman tidak valid |
+
+
+## Case 8 - Memilih Kendaraan (XOR)
+
+| Motor | Mobil | Hasil                         |
+
+| True  | True  | Pilihan kendaraan tidak valid |
+| True  | False | Pilihan kendaraan valid       |
+| False | True  | Pilihan kendaraan valid       |
+| False | False | Pilihan kendaraan tidak valid |
