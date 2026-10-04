@@ -14,12 +14,12 @@ dalam pemrograman Python.
 
 ## Studi Kasus
 
-- Masuk Perpustakaan
-- Mengikuti Ujian
-- Meminjam Laptop
-- Memilih Transportasi
-- Membayar Makanan
+- Pergi Kuliah
+- Membeli Makanan
+- Mengendarai Motor
 - Menghubungi Teman
+- Membayar Belanja
+- Pergi ke Kampus
 - Memilih Minuman
 - Memilih Kendaraan
 
